@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #252a36;
+  font-family: 'Vazir', Tahoma, sans-serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder {
+  color: #f8f8f4;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  color: #f8f8f4 !important;
+  background-color: #44475a !important;
+  border-color: #44475a !important;
+}
+
+.form-control {
+  background-color: #44475a !important;
+  color: #f8f8f4 !important;
+  border-color: #44475a !important;
+}
+
+.page-404 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 150px;
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+}
